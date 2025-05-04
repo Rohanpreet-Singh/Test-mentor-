@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Test Mentor - AI Test Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Test Mentor - By Rohanpreet Singh</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Generate Your Test</h2>
+      <input type="file" id="fileUpload" />
+      <button onclick="generateTest()">Upload & Generate Test</button>
+    </section>
+    <section>
+      <h3>Choose Class</h3>
+      <button>Class 10</button>
+      <button>Class 11</button>
+      <button>Class 12</button>
+      <button>JEE</button>
+      <button>NEET</button>
+    </section>
+    <section>
+      <h3>Sample Papers & PYQs (Last 5 Years)</h3>
+      <ul>
+        <li><a href="#">Class 10 Sample Paper (Placeholder)</a></li>
+        <li><a href="#">Class 11 PYQ (Placeholder)</a></li>
+      </ul>
+    </section>
+    <section>
+      <h3>Choose Test Type</h3>
+      <select>
+        <option>MCQ</option>
+        <option>Short Questions</option>
+        <option>Long Questions</option>
+        <option>Fill in the Blanks</option>
+        <option>True/False</option>
+      </select>
+    </section>
+    <section>
+      <button onclick="downloadTest()">Download Test</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
